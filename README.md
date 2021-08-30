@@ -1,6 +1,6 @@
 # Comandos Git
 
-##Configurações iniciais do Git
+## Configurações iniciais do Git
 
 - [x] git --version
 - [x] git config --global user.name "seu nome aqui"
