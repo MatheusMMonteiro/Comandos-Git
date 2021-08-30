@@ -43,9 +43,9 @@
  - [ ] Pronto!
  
  ### Enviar repositório existente 
-```git remote add origin git@github.com:MatheusMMonteiro/teste.git``` --> VIA SSH
-```git remote add origin https://github.com/MatheusMMonteiro/teste.git``` --> OU VIA HTTP
-```git branch -M main``` --> Cria uma nova branch
+```git remote add origin git@github.com:MatheusMMonteiro/teste.git``` --> VIA SSH<br></br>
+```git remote add origin https://github.com/MatheusMMonteiro/teste.git``` --> OU VIA HTTP<br></br>
+```git branch -M main``` --> Cria uma nova branch<br></br>
 ```git push -u origin main``` --> Sobe as branchs para o repositório
  
 
