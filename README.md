@@ -2,7 +2,7 @@
 
 ## Configurações iniciais do Git
 
-- [x] ``````git --version```
+- [x] ```git --version```
 - [x] ```git config --global user.name "seu nome aqui"```
 - [x] ```git config --global user.email "seu email aqui"```
 
@@ -22,7 +22,7 @@
 
 ```git commit``` -m "comentario" --> Sela os arquivos 
 
-```git log``` + (--oneline/--graph) --> Mostra todos os commits
+```git log``` + ```--oneline``` + ```--graph``` ```--all``` --> Mostra todos os commits
 
 ```git branch teste``` --> Só cria uma nova branch
 
@@ -32,7 +32,7 @@
 
 ```git branch``` --> Exibe todas as branchs
 
-### Criando um novo repositório via SSH
+### Criando uma nova chave SSH
  - [x] No terminal, digite: ```ssh-keygen```
  - [x] Em seguida dê Enter sem preencher nada até finalizar
  - [X] Depois copie a chave ssh localizada no arquivo id_rsa.pub que foi criado
@@ -40,11 +40,12 @@
  - [X] E acesse o seu GitHub, depois vá em Settings --> SSH and GPG Keys --> New SSH Key
  - [X] Adicione o título(geralmente coloco o nome da máquina) e cole a chave ssh em Key
  - [X] Após clique em "Add SSH Key"
- - [ ] Pronto! Agora o GitHub conversa automaticamente com sua máquina 
+ - [ ] Pronto!
  
  ### Enviar repositório existente 
-```git remote add origin git@github.com:MatheusMMonteiro/teste.git```
-```git branch -M main```
-```git push -u origin main```
+```git remote add origin git@github.com:MatheusMMonteiro/teste.git``` --> VIA SSH
+```git remote add origin https://github.com/MatheusMMonteiro/teste.git``` --> OU VIA HTTP
+```git branch -M main``` --> Cria uma nova branch
+```git push -u origin main``` --> Sobe as branchs para o repositório
  
 
