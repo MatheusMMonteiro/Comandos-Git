@@ -22,7 +22,7 @@
 
 ```git commit``` -m "comentario" --> Sela os arquivos 
 
-```git log``` + ```--oneline``` + ```--graph``` ```--all``` --> Mostra todos os commits
+```git log``` + ```--oneline``` + ```--graph``` + ```--all``` --> Mostra todos os commits
 
 ```git branch teste``` --> Só cria uma nova branch
 
