@@ -32,6 +32,8 @@
 
 ```git branch``` --> Exibe todas as branchs
 
+```mv arquivo.txt diretorio/``` / ```mv *.txt diretorio/``` --> Move um arquivo para o diretório ou todos
+
 ### Criando uma nova chave SSH
  - [x] No terminal, digite: ```ssh-keygen```
  - [x] Em seguida dê Enter sem preencher nada até finalizar
