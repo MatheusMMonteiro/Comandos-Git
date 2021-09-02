@@ -22,17 +22,25 @@
 
 ```git commit``` -m "comentario" --> Sela os arquivos 
 
-```git log``` + ```--oneline``` + ```--graph``` + ```--all``` --> Mostra todos os commits
+```git log``` --> Mostra todos os commits --> Argumentos a mais -->  ```--oneline``` + ```--graph``` + ```--all```
 
 ```git branch teste``` --> Só cria uma nova branch
 
-```git branch -M teste``` / ```git checkout -b teste``` --> Cria uma nova branch e entra na branch 
+```git branch -M teste``` --> Substitui\renomeia a branch atual
+
+```git checkout -b teste``` --> Cria uma nova branch e entra na branch 
 
 ```git checkout teste``` --> Entra na branch teste
 
 ```git branch``` --> Exibe todas as branchs
 
+```git branch -d teste``` --> Exclui uma branch
+
 ```mv arquivo.txt diretorio/``` / ```mv *.txt diretorio/``` --> Move um arquivo para o diretório ou todos
+
+```mv arquivo.txt``` --> Exclui um arquivo
+
+```mv *.txt``` --> Exclui todos os arquivos com extensão .txt
 
 ### Criando uma nova chave SSH
  - [x] No terminal, digite: ```ssh-keygen```
@@ -47,7 +55,7 @@
  ### Enviar repositório existente 
 ```git remote add origin git@github.com:MatheusMMonteiro/teste.git``` --> VIA SSH<br></br>
 ```git remote add origin https://github.com/MatheusMMonteiro/teste.git``` --> OU VIA HTTP<br></br>
-```git branch -M main``` --> Cria uma nova branch<br></br>
+```git branch -M main``` --> Cria\substitui uma nova branch<br></br>
 ```git push -u origin main``` --> Sobe as branchs para o repositório
  
 
