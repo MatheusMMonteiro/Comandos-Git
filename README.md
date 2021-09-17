@@ -42,7 +42,7 @@
 
 ```mv *.txt``` --> Exclui todos os arquivos com extensão .txt
 
-### Criando uma nova chave SSH
+## Criando uma nova chave SSH
  - [x] No terminal, digite: ```ssh-keygen```
  - [x] Em seguida dê Enter sem preencher nada até finalizar
  - [X] Depois copie a chave ssh localizada no arquivo id_rsa.pub que foi criado
@@ -52,7 +52,7 @@
  - [X] Após clique em "Add SSH Key"
  - [ ] Pronto!
  
- ### Enviar repositório existente 
+ ## Enviar repositório existente 
 ```git remote add origin git@github.com:MatheusMMonteiro/teste.git``` --> VIA SSH<br></br>
 ```git remote add origin https://github.com/MatheusMMonteiro/teste.git``` --> OU VIA HTTP<br></br>
 ```git branch -M main``` --> Cria\substitui uma nova branch<br></br>
